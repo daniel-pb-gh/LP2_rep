@@ -1,0 +1,16 @@
+obs: para esse exercício, utilizei o inkscape.
+
+1)
+Outras operações comuns:
+-duplicar: produz uma nova cópia exata do objeto, mantendo todas as suas propriedades, porém, ambos os objetos serão independentes entre si. (alterações em um não afetam o outro)
+-clonar: produz um objeto idêntico ao existente, porém, com alterações no original, a cópia também é alterada. (só é possível alterar o original, qualquer alteração no clone é ignorada. Qualquer alteração no original reflete no clone)
+-remover: deleta o objeto selecionado.
+
+2)
+atributos compartilhados entre as figuras geométricas: cor do preenchimento, cor do contorno, estilo do contorno, opacidade e área.
+
+3)
+
+- Retângulo: Rx e Ry. (para fazer o retângulo com bordas arredondadas)
+- Círculo: Início e fim. (para fazer tipo um pacman)
+-estrela: quantidade de pontas e arredondamento das pontas.
