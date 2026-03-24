@@ -1,0 +1,5 @@
+1) inicia o método main.
+2) o comando new Rect() aloca memória para um objeto do tipo Rect e atribui os valores passados aos respectivos campos do objeto. (quando o objeto é criado, um espaço é reservado para o campo w. O construtor, recebe como argumento um inteiro e, atribui esse valor ao espaço do objeto reservado ao campo w, usando a palavra "this" para diferenciar o campo do objeto do que é passado como argumento)
+3) uma referência a esse objeto é passada a uma variável chamada r1, do tipo Rect.
+4) r1.print() acessa o método print() do objeto r1, descrita na classe Rect.
+5) o método r1.print() exibe o tamanho do retangulo e sua posição, acessando os campos do objeto. (por ser um método, print possui acesso aos campos do objeto que a chama, utilizando a palavra "this" nesse caso, ela possui acesso ao campo w, que é lido e exibido na tela)
